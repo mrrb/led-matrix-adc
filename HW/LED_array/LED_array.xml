@@ -1,0 +1,3589 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/mra/Sync/PC_sync/Projects/LED_array/LED_array/LED_array.kicad_sch</source>
+    <date>dom 06 jun 2021 13:36:47</date>
+    <tool>Eeschema (5.99.0-10847-g28909c1a72)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>LED matrix w/ ADC</title>
+        <company>Mario Rubio (mrrb.eu)</company>
+        <rev>1</rev>
+        <date>26/05/2021</date>
+        <source>LED_array.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/">
+      <title_block>
+        <title>LED matrix w/ ADC</title>
+        <company>Mario Rubio (mrrb.eu)</company>
+        <rev>1</rev>
+        <date>26/05/2021</date>
+        <source>LEDs.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/LEDs controller/Row controller/" tstamps="/7428dd77-d10e-40c2-a87a-c17a901051a0/c9c057a1-5661-475a-bd8f-44e5f92c0f13/">
+      <title_block>
+        <title>LED matrix w/ ADC</title>
+        <company>Mario Rubio (mrrb.eu)</company>
+        <rev>1</rev>
+        <date>26/05/2021</date>
+        <source>row_controller.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/LEDs controller/" tstamps="/7428dd77-d10e-40c2-a87a-c17a901051a0/">
+      <title_block>
+        <title>LED matrix w/ ADC</title>
+        <company>Mario Rubio (mrrb.eu)</company>
+        <rev>1</rev>
+        <date>26/05/2021</date>
+        <source>LEDs_controller.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/LEDs controller/Column controller/" tstamps="/7428dd77-d10e-40c2-a87a-c17a901051a0/be5b7b2a-017f-4073-84b3-c8bc1a9d5702/">
+      <title_block>
+        <title>LED matrix w/ ADC</title>
+        <company>Mario Rubio (mrrb.eu)</company>
+        <rev>1</rev>
+        <date>26/05/2021</date>
+        <source>column_controller.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED_array.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ce09a471-931d-4989-a877-b41ad72ff9e3</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED_array.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>946d94a2-f20f-449d-9344-8353e96cf46d</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED_array.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d028e2e6-9fd5-4575-ba91-413f38694840</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED_array.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3a250b61-12ef-434b-94f7-77af2002cdf1</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED_array.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>51f50103-3e9b-4317-92b8-8049d3ba2736</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED_array.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dc862636-0f3b-4a97-a4c3-bb6796d4c291</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED_array.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9d0f979b-5e48-4bba-9757-ce6d239a11d0</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED_array.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c5fc377d-9b9e-456b-a5f1-c2be3d3207f1</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED_array.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6f36a465-4027-4877-a57b-61a124309230</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED_array.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>da8c19ab-629d-4815-9ce2-1ff18fbfee68</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED_array.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b284578e-e6a5-4b90-ba22-857797e9f7ad</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED_array.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aa5fa5fd-0aa2-45fa-9b08-e1c0fead284a</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED_array.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>39ef1b88-3917-42ab-b47e-14239259f893</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED_array.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ed09fb77-6d3b-4c82-860a-d51a740c1b51</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED_array.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2e3f1cb8-beb2-45ac-9d09-81e93f0bb92b</tstamps>
+    </comp>
+    <comp ref="FB1">
+      <value>Ferrite_Bead_Small</value>
+      <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Ferrite_Bead_Small" description="Ferrite bead, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED_array.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5e3c1cb3-6cfe-47a5-8bb1-7d00cbeafc00</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>TYPE-C-31-M-12</value>
+      <footprint>lcsc_random:TYPE-C-31-M-12</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1903211732_Korean-Hroparts-Elec-TYPE-C-31-M-12_C165948.pdf</datasheet>
+      <fields>
+        <field name="LCSC part">C165948</field>
+      </fields>
+      <libsource lib="lcsc_random" part="TYPE-C-31-M-12" description="USB C"/>
+      <property name="LCSC part" value="C165948"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED_array.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c46950ae-72cf-49b2-bcfd-6b09caa037a1</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED_array.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>61d6069a-e7f9-4104-9fab-a4f77aea040a</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED_array.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7a83d5ba-f00b-409e-a272-242678da1919</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED_array.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4efffa28-dcb5-4bb3-a16a-2e8e07818761</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED_array.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2c00cc5c-9b22-4c33-ad00-796796eb4da9</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED_array.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cfc9ddc1-4122-46f5-b417-68abdbcf5fc2</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED_array.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7969a1e1-944d-4772-805e-2ec3b1824050</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED_array.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a48f44a3-d001-4697-aad6-c67942553bc4</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED_array.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cb65f080-308c-49d6-8bfb-cba9e4a3ed62</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED_array.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>044d1abc-84b8-47b0-af26-d5dc6606a71a</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED_array.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2c9dd0b3-49fa-44e9-a077-be42ca47e505</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED_array.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6e676df1-d3da-4441-bdd6-b05a9af41931</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED_array.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d3ea559e-ffe5-48b8-b031-dd02c2c033f6</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED_array.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>da28de6c-9a1b-4451-a6c9-70f40e641692</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED_array.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dba512c0-e6a1-4a36-9acd-4b4ae085c339</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED_array.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>90c21385-30c1-4a81-a5f6-e5f456b73ef9</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED_array.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6823d4e8-d6ce-4ae4-976b-c81f321efe93</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED_array.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c3191600-6b30-4633-85a4-7a2a813e3d23</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED_array.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6ebd9464-a6ef-41db-860c-d438c6fd6449</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_Push</value>
+      <footprint>lcsc_random:TS342A2P-WZ</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED_array.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a355c459-b586-47a8-ac60-3ca1ea4e31ee</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_Push</value>
+      <footprint>lcsc_random:TS342A2P-WZ</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED_array.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9dedfb0b-6724-468c-b3a9-2bc4626bd816</tstamps>
+    </comp>
+    <comp ref="TP1">
+      <value>TestPoint_Small</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint_Small" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED_array.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1ca48476-3091-4ed2-984f-009e1cce10f5</tstamps>
+    </comp>
+    <comp ref="TP2">
+      <value>TestPoint_Small</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint_Small" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED_array.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>32ae3d00-c20d-49be-8350-2a0b8c0e4b7a</tstamps>
+    </comp>
+    <comp ref="TP3">
+      <value>TestPoint_Small</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint_Small" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED_array.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fe23cdea-c6ec-4e28-8e05-2fa2dc0cfc58</tstamps>
+    </comp>
+    <comp ref="TP4">
+      <value>TestPoint_Small</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint_Small" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED_array.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9b77d6e8-8b59-404f-bb9e-e8fe8d3324af</tstamps>
+    </comp>
+    <comp ref="TP5">
+      <value>TestPoint_Small</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint_Small" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED_array.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>edd3e233-36c9-4368-b822-353227562686</tstamps>
+    </comp>
+    <comp ref="TP6">
+      <value>TestPoint_Small</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint_Small" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED_array.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>191a2951-ed76-4db5-a076-1af927e5fd3d</tstamps>
+    </comp>
+    <comp ref="TP7">
+      <value>TestPoint_Small</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint_Small" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED_array.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9cba5a96-18fe-4966-83b1-0ca373521941</tstamps>
+    </comp>
+    <comp ref="TP8">
+      <value>TestPoint_Small</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint_Small" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED_array.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ec946e62-f7a8-4d8a-b37e-fa7325e48cf7</tstamps>
+    </comp>
+    <comp ref="TP9">
+      <value>TestPoint_Small</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint_Small" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED_array.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2d03baad-195e-40dc-958a-d3bddc6808f5</tstamps>
+    </comp>
+    <comp ref="TP10">
+      <value>TestPoint_Small</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint_Small" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED_array.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>558c4ba3-8d72-4a68-b45d-0e4d56e01c52</tstamps>
+    </comp>
+    <comp ref="TP11">
+      <value>TestPoint_Small</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint_Small" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED_array.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>603c1eb3-2a70-4f59-85b2-b83eea687bb8</tstamps>
+    </comp>
+    <comp ref="TP12">
+      <value>TestPoint_Small</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint_Small" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED_array.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b67f9f31-e3a9-4b08-926b-b245a63a639d</tstamps>
+    </comp>
+    <comp ref="TP13">
+      <value>TestPoint_Small</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint_Small" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED_array.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e0188cb2-8e53-4c81-a150-acb1a28e9b35</tstamps>
+    </comp>
+    <comp ref="TP14">
+      <value>TestPoint_Small</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint_Small" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED_array.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>960f6231-8d18-497c-b5df-150c9520da26</tstamps>
+    </comp>
+    <comp ref="TP15">
+      <value>TestPoint_Small</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint_Small" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED_array.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d05eee71-14fe-4dfc-84fb-2497a31874bf</tstamps>
+    </comp>
+    <comp ref="TP16">
+      <value>TestPoint_Small</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint_Small" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED_array.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1a045046-175b-4d33-80da-d8db0ccf5546</tstamps>
+    </comp>
+    <comp ref="TP17">
+      <value>TestPoint_Small</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint_Small" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED_array.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3733878b-6d5b-4a18-a86c-7b53a8719119</tstamps>
+    </comp>
+    <comp ref="TP18">
+      <value>TestPoint_Small</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint_Small" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED_array.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b7edb10f-b359-4297-85b8-68d5b2884ca1</tstamps>
+    </comp>
+    <comp ref="TP19">
+      <value>TestPoint_Small</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint_Small" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED_array.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>60e51c19-3480-4eec-8b8f-e59c047a1799</tstamps>
+    </comp>
+    <comp ref="TP20">
+      <value>TestPoint_Small</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint_Small" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED_array.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8db6c09f-6116-4469-968b-ea8b74f4ea05</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>CH340C</value>
+      <footprint>Package_SO:SOIC-16_3.9x9.9mm_P1.27mm</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Jiangsu-Qin-Heng-CH340C_C84681.pdf</datasheet>
+      <libsource lib="Interface_USB" part="CH340C" description="USB serial converter, UART, SOIC-16"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED_array.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b661ca55-5991-4dd8-bbf4-3671439cd1ef</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>ICM-20600</value>
+      <footprint>Package_LGA:LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/TDK-InvenSense-ICM-20600_C124140.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C124140</field>
+      </fields>
+      <libsource lib="lcsc_sensors" part="ICM-20600" description="6-axis MotionTracking device that combines a 3-axis gyroscope and a 3-axis accelerometer"/>
+      <property name="LCSC" value="C124140"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED_array.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6f3f9ee9-851f-4b6d-b55c-029882242da9</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>AZ1117-3.3</value>
+      <footprint>Package_TO_SOT_SMD:SOT-223-3_TabPin2</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/AZ1117.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="AZ1117-3.3" description="1A 20V Fixed LDO Linear Regulator, 3.3V, SOT-89/SOT-223/TO-220/TO-252/TO-263"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED_array.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0edf0071-6efd-433a-9ab9-d67253c2d01b</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>ESP32-WROOM-32</value>
+      <footprint>RF_Module:ESP32-WROOM-32</footprint>
+      <datasheet>https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf</datasheet>
+      <libsource lib="RF_Module" part="ESP32-WROOM-32" description="RF Module, ESP32-D0WDQ6 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, onboard antenna, SMD"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED_array.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>84775889-8ade-468a-8cb8-65c62048cd35</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>5337c4ee-3691-4e2d-996d-b6b1a9cac979</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>c6994cb7-9e08-4695-a18d-cebeee8b8ab7</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>d7d0c48e-33a2-4848-b449-11a8cdee4eb6</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>9a1d838b-7903-44ad-a169-b0a52ce47376</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>c2645f71-11f2-4c9c-b253-76a4335d97e2</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>b13921b5-cdc3-4a7b-a14a-38e4c807f8a6</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>e875df11-6428-4432-b3da-fea6b0ea99c1</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>16cfd971-4e63-4706-b1d8-d2fd17508cfd</tstamps>
+    </comp>
+    <comp ref="D9">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>25ff277e-7945-4a55-bf6b-5f20743c0414</tstamps>
+    </comp>
+    <comp ref="D10">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>93ea7ff4-508d-4daa-8919-2a23d003baee</tstamps>
+    </comp>
+    <comp ref="D11">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>29e078c3-d0fd-4f63-972a-9a69bf2c0fcd</tstamps>
+    </comp>
+    <comp ref="D12">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>cf44f877-8a00-4ea6-87af-1dbf42e8d0b2</tstamps>
+    </comp>
+    <comp ref="D13">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>9af25d98-e9de-45d3-8037-3bd0ccb4e08a</tstamps>
+    </comp>
+    <comp ref="D14">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>f792a143-09a1-4b0c-971a-2f4575a777c7</tstamps>
+    </comp>
+    <comp ref="D15">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>6ce32b7b-a05c-4265-814c-4eb3af4d5f51</tstamps>
+    </comp>
+    <comp ref="D16">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>2660b940-9d14-4c03-893e-f845f5778dc6</tstamps>
+    </comp>
+    <comp ref="D17">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>7c49cf8e-ae37-4c20-a5fb-dbb6a5cd4c19</tstamps>
+    </comp>
+    <comp ref="D18">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>25108f01-f6ea-4d2c-a2bd-a91d37c79e78</tstamps>
+    </comp>
+    <comp ref="D19">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>cfaeab19-7ada-418e-9f79-947cb09c5041</tstamps>
+    </comp>
+    <comp ref="D20">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>653c46d5-a9b4-44aa-bc5b-f681e52bafcf</tstamps>
+    </comp>
+    <comp ref="D21">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>0de8e2ef-7170-4c96-8ca2-2019c7a16e7b</tstamps>
+    </comp>
+    <comp ref="D22">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>1a7132c8-13db-4f1b-9b1a-3e4b6720ab4d</tstamps>
+    </comp>
+    <comp ref="D23">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>0c773b0d-06bc-4bdc-a7a9-50ba26208f6c</tstamps>
+    </comp>
+    <comp ref="D24">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>49123aac-f335-41bf-8b54-f26d4d994846</tstamps>
+    </comp>
+    <comp ref="D25">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>742dd64c-ea1e-44d8-9288-0f0c2cc47df0</tstamps>
+    </comp>
+    <comp ref="D26">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>863240a0-ae88-461f-9a9e-9c3c4a59eed6</tstamps>
+    </comp>
+    <comp ref="D27">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>560e12ef-b1c2-446f-a9b4-9bdaa790540d</tstamps>
+    </comp>
+    <comp ref="D28">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>44796b35-d938-4371-8b97-1397389de78c</tstamps>
+    </comp>
+    <comp ref="D29">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>fadb0fee-e6b6-448b-84f8-97781c18cac0</tstamps>
+    </comp>
+    <comp ref="D30">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>4c0ce3ce-1165-43cd-b24e-8dbb5c629a09</tstamps>
+    </comp>
+    <comp ref="D31">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>b9c3e6ac-400b-4ec1-84a3-9c7c37c511e7</tstamps>
+    </comp>
+    <comp ref="D32">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>6be69d7f-e8f8-4074-b987-02c89cc16043</tstamps>
+    </comp>
+    <comp ref="D33">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>1c249352-915d-4cf3-bc01-260546f5040c</tstamps>
+    </comp>
+    <comp ref="D34">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>ab8660fe-238a-4591-9944-fb181f5cfc17</tstamps>
+    </comp>
+    <comp ref="D35">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>d50f76f6-e87f-4187-8088-a3f65ff920e9</tstamps>
+    </comp>
+    <comp ref="D36">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>fc74894e-9b3a-48cf-816d-9c71605a1859</tstamps>
+    </comp>
+    <comp ref="D37">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>84bcf1e3-df67-4086-a2b1-bb3d3bab2adf</tstamps>
+    </comp>
+    <comp ref="D38">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>cf3e63f4-b316-4c25-9cd9-7aefd498cf01</tstamps>
+    </comp>
+    <comp ref="D39">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>e5066bfb-ce15-42d9-b9ee-ccbd85b4425f</tstamps>
+    </comp>
+    <comp ref="D40">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>ae36b07e-051d-4fa9-86a8-8b4371e839c4</tstamps>
+    </comp>
+    <comp ref="D41">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>5a341989-2c91-46ad-ae43-33ce09c38cc0</tstamps>
+    </comp>
+    <comp ref="D42">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>4626bb68-b827-4e58-b376-9104c93e82cd</tstamps>
+    </comp>
+    <comp ref="D43">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>24346a60-13a9-426f-ba7e-e19e36377638</tstamps>
+    </comp>
+    <comp ref="D44">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>91153e94-c1c2-4863-9a82-5a5f25869964</tstamps>
+    </comp>
+    <comp ref="D45">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>bd2092c9-3db8-4146-961e-ae34c3aef262</tstamps>
+    </comp>
+    <comp ref="D46">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>138e34fd-593e-4d6f-97e3-f02a263f8b33</tstamps>
+    </comp>
+    <comp ref="D47">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>49199783-a19d-40f1-a405-b53a79fadf2b</tstamps>
+    </comp>
+    <comp ref="D48">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>d958cf9f-14b0-4840-bb8f-69a694f13527</tstamps>
+    </comp>
+    <comp ref="D49">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>cbf81bd2-23f1-458f-bd71-0ba2ab4842fe</tstamps>
+    </comp>
+    <comp ref="D50">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>580aecec-45a7-4291-b07c-31f3fb4a9377</tstamps>
+    </comp>
+    <comp ref="D51">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>04c4a73e-27d4-495d-aa3b-e1b55bd7e670</tstamps>
+    </comp>
+    <comp ref="D52">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>d8f55cf4-df6e-4e3d-a739-edca7186dc2a</tstamps>
+    </comp>
+    <comp ref="D53">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>b9a39170-aab9-4ade-a4fc-f594dbf2038c</tstamps>
+    </comp>
+    <comp ref="D54">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>787b52f6-8d02-4277-afc1-3e926eaa46e7</tstamps>
+    </comp>
+    <comp ref="D55">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>e3cde3be-ed07-42b2-ac08-502de90d35aa</tstamps>
+    </comp>
+    <comp ref="D56">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>b9af1866-bb76-404c-9d15-04267adeebad</tstamps>
+    </comp>
+    <comp ref="D57">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>3b515392-0b30-41f2-9f46-e74083ff4213</tstamps>
+    </comp>
+    <comp ref="D58">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>ad5e6a0c-cfad-4568-9ec1-90ab5966ee74</tstamps>
+    </comp>
+    <comp ref="D59">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>38c6c04b-cd16-4d27-92b6-e63b9c76e4b3</tstamps>
+    </comp>
+    <comp ref="D60">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>50fa2c31-28bc-41fd-938a-f1b4caaa3b1c</tstamps>
+    </comp>
+    <comp ref="D61">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>8e96fec5-361e-48f5-8b14-6a72757de732</tstamps>
+    </comp>
+    <comp ref="D62">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>9d97d57d-939d-41f1-8a65-06520a86222c</tstamps>
+    </comp>
+    <comp ref="D63">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>4e8a6b5b-15bd-4531-83be-d065befc0080</tstamps>
+    </comp>
+    <comp ref="D64">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>68a08530-5615-4b3c-a5d1-d8c4f21f824f</tstamps>
+    </comp>
+    <comp ref="D65">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>7293f756-1661-49f6-956d-ce1e324fd024</tstamps>
+    </comp>
+    <comp ref="D66">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>0e622201-395f-4205-a4ca-64eb0a38265a</tstamps>
+    </comp>
+    <comp ref="D67">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>f13a3c6e-2099-4655-ae91-51978595327e</tstamps>
+    </comp>
+    <comp ref="D68">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>fe968540-116d-4b26-9594-b1052b5be35b</tstamps>
+    </comp>
+    <comp ref="D69">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>98c7f6eb-b0bf-45eb-9864-d990020c8010</tstamps>
+    </comp>
+    <comp ref="D70">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>7b5357f0-be2c-445f-9960-2f5e5cc986d9</tstamps>
+    </comp>
+    <comp ref="D71">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>e5f9a07d-99ec-411e-bb5b-a1779eea1359</tstamps>
+    </comp>
+    <comp ref="D72">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>f92d2702-490d-4d47-8a21-c435d61a3229</tstamps>
+    </comp>
+    <comp ref="D73">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>9dcf8800-8029-4c7c-bf27-c8edd2a84226</tstamps>
+    </comp>
+    <comp ref="D74">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>944aec24-03b5-438c-94a2-af8b02ba93b0</tstamps>
+    </comp>
+    <comp ref="D75">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>8a22d25b-ef8d-4bec-af49-02f01910738c</tstamps>
+    </comp>
+    <comp ref="D76">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>072e0e4d-ad2c-437f-bdc3-41a1584a6afb</tstamps>
+    </comp>
+    <comp ref="D77">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>f5c26a26-c79b-4a2b-a63e-71e8b567bbe6</tstamps>
+    </comp>
+    <comp ref="D78">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>0646cec8-740a-4158-8e08-d5d0f5cca59f</tstamps>
+    </comp>
+    <comp ref="D79">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>90201889-17e8-41dc-ab9f-52c29d35a2e0</tstamps>
+    </comp>
+    <comp ref="D80">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>f20a0942-b117-47e4-a449-218ecd625d12</tstamps>
+    </comp>
+    <comp ref="D81">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>8a1079e6-ffda-4530-bc98-c8318935209e</tstamps>
+    </comp>
+    <comp ref="D82">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>2b6f07a4-75eb-4599-8349-f353cc46db57</tstamps>
+    </comp>
+    <comp ref="D83">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>da8d7883-a1b5-464b-bb10-e73bcc837524</tstamps>
+    </comp>
+    <comp ref="D84">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>0d25eafe-c2af-4e4a-b7d0-1b72349e947a</tstamps>
+    </comp>
+    <comp ref="D85">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>106ed0df-34ae-4751-bc02-e6d7a670d970</tstamps>
+    </comp>
+    <comp ref="D86">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>f501856d-a032-44da-b33a-a54a8b2af399</tstamps>
+    </comp>
+    <comp ref="D87">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>1695d70d-7a2b-4f74-8955-0c5a6b4fce3c</tstamps>
+    </comp>
+    <comp ref="D88">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>1587ca4c-3cfd-415f-81f0-db754ed83007</tstamps>
+    </comp>
+    <comp ref="D89">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>c9564b7d-0ff0-4348-90d9-54f3bdea941f</tstamps>
+    </comp>
+    <comp ref="D90">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>29f89d88-c801-4668-840e-c5b5c712f95b</tstamps>
+    </comp>
+    <comp ref="D91">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>878e13e1-4686-4296-8003-9c935970f5ce</tstamps>
+    </comp>
+    <comp ref="D92">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>2229fbe4-1cd8-4763-98cb-bcc02d740451</tstamps>
+    </comp>
+    <comp ref="D93">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>f795f55b-84ca-4802-9e15-65d6110ffd6a</tstamps>
+    </comp>
+    <comp ref="D94">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>5a3de930-e4e7-4ccf-8c77-9d522ebe5713</tstamps>
+    </comp>
+    <comp ref="D95">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>63a426c8-0a5f-42ee-9e0f-21c357abd270</tstamps>
+    </comp>
+    <comp ref="D96">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>017e6905-9a52-42ae-a19e-93513c492f21</tstamps>
+    </comp>
+    <comp ref="D97">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>aa647407-aade-4547-81b7-961439489551</tstamps>
+    </comp>
+    <comp ref="D98">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>8041e0bf-198e-4806-9d37-6ca11563ff47</tstamps>
+    </comp>
+    <comp ref="D99">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>8518a066-3a19-4803-8246-05bce0a498fe</tstamps>
+    </comp>
+    <comp ref="D100">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LEDs.kicad_sch"/>
+      <sheetpath names="/LEDs/" tstamps="/003f80ca-a203-46cd-a94f-947887595626/"/>
+      <tstamps>aaeff06a-1b63-4234-8c40-35eab4e4a5b0</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>Q_PMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C296296</field>
+      </fields>
+      <libsource lib="Device" part="Q_PMOS_GSD" description="P-MOSFET transistor, gate/source/drain"/>
+      <property name="LCSC" value="C296296"/>
+      <property name="Sheetname" value="Row controller"/>
+      <property name="Sheetfile" value="row_controller.kicad_sch"/>
+      <sheetpath names="/LEDs controller/Row controller/" tstamps="/7428dd77-d10e-40c2-a87a-c17a901051a0/c9c057a1-5661-475a-bd8f-44e5f92c0f13/"/>
+      <tstamps>8226319d-df43-41e7-b3cd-a54277ab7d73</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>Q_PMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C296296</field>
+      </fields>
+      <libsource lib="Device" part="Q_PMOS_GSD" description="P-MOSFET transistor, gate/source/drain"/>
+      <property name="LCSC" value="C296296"/>
+      <property name="Sheetname" value="Row controller"/>
+      <property name="Sheetfile" value="row_controller.kicad_sch"/>
+      <sheetpath names="/LEDs controller/Row controller/" tstamps="/7428dd77-d10e-40c2-a87a-c17a901051a0/c9c057a1-5661-475a-bd8f-44e5f92c0f13/"/>
+      <tstamps>bb48c932-d003-4cc2-9535-dd71de90d31f</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>Q_PMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C296296</field>
+      </fields>
+      <libsource lib="Device" part="Q_PMOS_GSD" description="P-MOSFET transistor, gate/source/drain"/>
+      <property name="LCSC" value="C296296"/>
+      <property name="Sheetname" value="Row controller"/>
+      <property name="Sheetfile" value="row_controller.kicad_sch"/>
+      <sheetpath names="/LEDs controller/Row controller/" tstamps="/7428dd77-d10e-40c2-a87a-c17a901051a0/c9c057a1-5661-475a-bd8f-44e5f92c0f13/"/>
+      <tstamps>3c8af44e-41ce-49f8-a9e1-db82b9e021ba</tstamps>
+    </comp>
+    <comp ref="Q4">
+      <value>Q_PMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C296296</field>
+      </fields>
+      <libsource lib="Device" part="Q_PMOS_GSD" description="P-MOSFET transistor, gate/source/drain"/>
+      <property name="LCSC" value="C296296"/>
+      <property name="Sheetname" value="Row controller"/>
+      <property name="Sheetfile" value="row_controller.kicad_sch"/>
+      <sheetpath names="/LEDs controller/Row controller/" tstamps="/7428dd77-d10e-40c2-a87a-c17a901051a0/c9c057a1-5661-475a-bd8f-44e5f92c0f13/"/>
+      <tstamps>d37869de-baf8-4131-9b93-7891bb2a39d2</tstamps>
+    </comp>
+    <comp ref="Q5">
+      <value>Q_PMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C296296</field>
+      </fields>
+      <libsource lib="Device" part="Q_PMOS_GSD" description="P-MOSFET transistor, gate/source/drain"/>
+      <property name="LCSC" value="C296296"/>
+      <property name="Sheetname" value="Row controller"/>
+      <property name="Sheetfile" value="row_controller.kicad_sch"/>
+      <sheetpath names="/LEDs controller/Row controller/" tstamps="/7428dd77-d10e-40c2-a87a-c17a901051a0/c9c057a1-5661-475a-bd8f-44e5f92c0f13/"/>
+      <tstamps>51cf723c-7e24-4e58-a96e-bef76ba9caf5</tstamps>
+    </comp>
+    <comp ref="Q6">
+      <value>Q_PMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C296296</field>
+      </fields>
+      <libsource lib="Device" part="Q_PMOS_GSD" description="P-MOSFET transistor, gate/source/drain"/>
+      <property name="LCSC" value="C296296"/>
+      <property name="Sheetname" value="Row controller"/>
+      <property name="Sheetfile" value="row_controller.kicad_sch"/>
+      <sheetpath names="/LEDs controller/Row controller/" tstamps="/7428dd77-d10e-40c2-a87a-c17a901051a0/c9c057a1-5661-475a-bd8f-44e5f92c0f13/"/>
+      <tstamps>46aaae29-21a7-4d82-ba15-c6776f516e0c</tstamps>
+    </comp>
+    <comp ref="Q7">
+      <value>Q_PMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C296296</field>
+      </fields>
+      <libsource lib="Device" part="Q_PMOS_GSD" description="P-MOSFET transistor, gate/source/drain"/>
+      <property name="LCSC" value="C296296"/>
+      <property name="Sheetname" value="Row controller"/>
+      <property name="Sheetfile" value="row_controller.kicad_sch"/>
+      <sheetpath names="/LEDs controller/Row controller/" tstamps="/7428dd77-d10e-40c2-a87a-c17a901051a0/c9c057a1-5661-475a-bd8f-44e5f92c0f13/"/>
+      <tstamps>dfbee57e-aa0d-4a96-9cc3-5526658fd3c6</tstamps>
+    </comp>
+    <comp ref="Q8">
+      <value>Q_PMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C296296</field>
+      </fields>
+      <libsource lib="Device" part="Q_PMOS_GSD" description="P-MOSFET transistor, gate/source/drain"/>
+      <property name="LCSC" value="C296296"/>
+      <property name="Sheetname" value="Row controller"/>
+      <property name="Sheetfile" value="row_controller.kicad_sch"/>
+      <sheetpath names="/LEDs controller/Row controller/" tstamps="/7428dd77-d10e-40c2-a87a-c17a901051a0/c9c057a1-5661-475a-bd8f-44e5f92c0f13/"/>
+      <tstamps>c0556385-d65a-4937-a298-dfac98542a99</tstamps>
+    </comp>
+    <comp ref="Q9">
+      <value>Q_PMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C296296</field>
+      </fields>
+      <libsource lib="Device" part="Q_PMOS_GSD" description="P-MOSFET transistor, gate/source/drain"/>
+      <property name="LCSC" value="C296296"/>
+      <property name="Sheetname" value="Row controller"/>
+      <property name="Sheetfile" value="row_controller.kicad_sch"/>
+      <sheetpath names="/LEDs controller/Row controller/" tstamps="/7428dd77-d10e-40c2-a87a-c17a901051a0/c9c057a1-5661-475a-bd8f-44e5f92c0f13/"/>
+      <tstamps>e2f92191-5fc5-4e49-b6db-39f4697afa67</tstamps>
+    </comp>
+    <comp ref="Q10">
+      <value>Q_PMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C296296</field>
+      </fields>
+      <libsource lib="Device" part="Q_PMOS_GSD" description="P-MOSFET transistor, gate/source/drain"/>
+      <property name="LCSC" value="C296296"/>
+      <property name="Sheetname" value="Row controller"/>
+      <property name="Sheetfile" value="row_controller.kicad_sch"/>
+      <sheetpath names="/LEDs controller/Row controller/" tstamps="/7428dd77-d10e-40c2-a87a-c17a901051a0/c9c057a1-5661-475a-bd8f-44e5f92c0f13/"/>
+      <tstamps>c2fa43f7-684f-4dbb-a2e6-a5d7eb570dcc</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>BL1551</value>
+      <footprint>Package_TO_SOT_SMD:SC-70-8</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/Shanghai-Belling-BL1551_C82528.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C82528</field>
+      </fields>
+      <libsource lib="lcsc_analog" part="BL1551" description=""/>
+      <property name="LCSC" value="C82528"/>
+      <property name="Sheetname" value="Row controller"/>
+      <property name="Sheetfile" value="row_controller.kicad_sch"/>
+      <sheetpath names="/LEDs controller/Row controller/" tstamps="/7428dd77-d10e-40c2-a87a-c17a901051a0/c9c057a1-5661-475a-bd8f-44e5f92c0f13/"/>
+      <tstamps>f871b33f-f3b6-4647-849b-f272fabc5260</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>BL1551</value>
+      <footprint>Package_TO_SOT_SMD:SC-70-8</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/Shanghai-Belling-BL1551_C82528.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C82528</field>
+      </fields>
+      <libsource lib="lcsc_analog" part="BL1551" description=""/>
+      <property name="LCSC" value="C82528"/>
+      <property name="Sheetname" value="Row controller"/>
+      <property name="Sheetfile" value="row_controller.kicad_sch"/>
+      <sheetpath names="/LEDs controller/Row controller/" tstamps="/7428dd77-d10e-40c2-a87a-c17a901051a0/c9c057a1-5661-475a-bd8f-44e5f92c0f13/"/>
+      <tstamps>d23c8656-066c-4931-b3b0-4fda03745778</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>BL1551</value>
+      <footprint>Package_TO_SOT_SMD:SC-70-8</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/Shanghai-Belling-BL1551_C82528.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C82528</field>
+      </fields>
+      <libsource lib="lcsc_analog" part="BL1551" description=""/>
+      <property name="LCSC" value="C82528"/>
+      <property name="Sheetname" value="Row controller"/>
+      <property name="Sheetfile" value="row_controller.kicad_sch"/>
+      <sheetpath names="/LEDs controller/Row controller/" tstamps="/7428dd77-d10e-40c2-a87a-c17a901051a0/c9c057a1-5661-475a-bd8f-44e5f92c0f13/"/>
+      <tstamps>6a90e3e7-e9d1-4007-b003-2d5ffeae5f0a</tstamps>
+    </comp>
+    <comp ref="U8">
+      <value>BL1551</value>
+      <footprint>Package_TO_SOT_SMD:SC-70-8</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/Shanghai-Belling-BL1551_C82528.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C82528</field>
+      </fields>
+      <libsource lib="lcsc_analog" part="BL1551" description=""/>
+      <property name="LCSC" value="C82528"/>
+      <property name="Sheetname" value="Row controller"/>
+      <property name="Sheetfile" value="row_controller.kicad_sch"/>
+      <sheetpath names="/LEDs controller/Row controller/" tstamps="/7428dd77-d10e-40c2-a87a-c17a901051a0/c9c057a1-5661-475a-bd8f-44e5f92c0f13/"/>
+      <tstamps>29e5c859-6e9b-4762-b1e3-dcd1d47555e1</tstamps>
+    </comp>
+    <comp ref="U9">
+      <value>BL1551</value>
+      <footprint>Package_TO_SOT_SMD:SC-70-8</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/Shanghai-Belling-BL1551_C82528.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C82528</field>
+      </fields>
+      <libsource lib="lcsc_analog" part="BL1551" description=""/>
+      <property name="LCSC" value="C82528"/>
+      <property name="Sheetname" value="Row controller"/>
+      <property name="Sheetfile" value="row_controller.kicad_sch"/>
+      <sheetpath names="/LEDs controller/Row controller/" tstamps="/7428dd77-d10e-40c2-a87a-c17a901051a0/c9c057a1-5661-475a-bd8f-44e5f92c0f13/"/>
+      <tstamps>5a03de67-550a-4248-939e-8e7806c5e998</tstamps>
+    </comp>
+    <comp ref="U10">
+      <value>BL1551</value>
+      <footprint>Package_TO_SOT_SMD:SC-70-8</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/Shanghai-Belling-BL1551_C82528.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C82528</field>
+      </fields>
+      <libsource lib="lcsc_analog" part="BL1551" description=""/>
+      <property name="LCSC" value="C82528"/>
+      <property name="Sheetname" value="Row controller"/>
+      <property name="Sheetfile" value="row_controller.kicad_sch"/>
+      <sheetpath names="/LEDs controller/Row controller/" tstamps="/7428dd77-d10e-40c2-a87a-c17a901051a0/c9c057a1-5661-475a-bd8f-44e5f92c0f13/"/>
+      <tstamps>329c3160-ef12-441e-99ef-0512ead5fbff</tstamps>
+    </comp>
+    <comp ref="U11">
+      <value>BL1551</value>
+      <footprint>Package_TO_SOT_SMD:SC-70-8</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/Shanghai-Belling-BL1551_C82528.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C82528</field>
+      </fields>
+      <libsource lib="lcsc_analog" part="BL1551" description=""/>
+      <property name="LCSC" value="C82528"/>
+      <property name="Sheetname" value="Row controller"/>
+      <property name="Sheetfile" value="row_controller.kicad_sch"/>
+      <sheetpath names="/LEDs controller/Row controller/" tstamps="/7428dd77-d10e-40c2-a87a-c17a901051a0/c9c057a1-5661-475a-bd8f-44e5f92c0f13/"/>
+      <tstamps>a30920d7-1497-4cb3-8e04-e57d822b094e</tstamps>
+    </comp>
+    <comp ref="U12">
+      <value>BL1551</value>
+      <footprint>Package_TO_SOT_SMD:SC-70-8</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/Shanghai-Belling-BL1551_C82528.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C82528</field>
+      </fields>
+      <libsource lib="lcsc_analog" part="BL1551" description=""/>
+      <property name="LCSC" value="C82528"/>
+      <property name="Sheetname" value="Row controller"/>
+      <property name="Sheetfile" value="row_controller.kicad_sch"/>
+      <sheetpath names="/LEDs controller/Row controller/" tstamps="/7428dd77-d10e-40c2-a87a-c17a901051a0/c9c057a1-5661-475a-bd8f-44e5f92c0f13/"/>
+      <tstamps>28d3d4c9-6add-40bb-8386-88c959ba5036</tstamps>
+    </comp>
+    <comp ref="U13">
+      <value>BL1551</value>
+      <footprint>Package_TO_SOT_SMD:SC-70-8</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/Shanghai-Belling-BL1551_C82528.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C82528</field>
+      </fields>
+      <libsource lib="lcsc_analog" part="BL1551" description=""/>
+      <property name="LCSC" value="C82528"/>
+      <property name="Sheetname" value="Row controller"/>
+      <property name="Sheetfile" value="row_controller.kicad_sch"/>
+      <sheetpath names="/LEDs controller/Row controller/" tstamps="/7428dd77-d10e-40c2-a87a-c17a901051a0/c9c057a1-5661-475a-bd8f-44e5f92c0f13/"/>
+      <tstamps>f38ffe23-f38b-43f0-9ff1-7da5114a218d</tstamps>
+    </comp>
+    <comp ref="U14">
+      <value>BL1551</value>
+      <footprint>Package_TO_SOT_SMD:SC-70-8</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/Shanghai-Belling-BL1551_C82528.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C82528</field>
+      </fields>
+      <libsource lib="lcsc_analog" part="BL1551" description=""/>
+      <property name="LCSC" value="C82528"/>
+      <property name="Sheetname" value="Row controller"/>
+      <property name="Sheetfile" value="row_controller.kicad_sch"/>
+      <sheetpath names="/LEDs controller/Row controller/" tstamps="/7428dd77-d10e-40c2-a87a-c17a901051a0/c9c057a1-5661-475a-bd8f-44e5f92c0f13/"/>
+      <tstamps>74071681-dd7f-4a99-b7a7-93b637be3c03</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="LEDs controller"/>
+      <property name="Sheetfile" value="LEDs_controller.kicad_sch"/>
+      <sheetpath names="/LEDs controller/" tstamps="/7428dd77-d10e-40c2-a87a-c17a901051a0/"/>
+      <tstamps>4921264f-7a11-45cd-9137-232f8aa7632f</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="LEDs controller"/>
+      <property name="Sheetfile" value="LEDs_controller.kicad_sch"/>
+      <sheetpath names="/LEDs controller/" tstamps="/7428dd77-d10e-40c2-a87a-c17a901051a0/"/>
+      <tstamps>4dd92ec4-44d2-4e7f-a661-881c9dbe5713</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="LEDs controller"/>
+      <property name="Sheetfile" value="LEDs_controller.kicad_sch"/>
+      <sheetpath names="/LEDs controller/" tstamps="/7428dd77-d10e-40c2-a87a-c17a901051a0/"/>
+      <tstamps>bd3814b1-2753-4b0c-9ce3-b9f78c5d2e49</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="LEDs controller"/>
+      <property name="Sheetfile" value="LEDs_controller.kicad_sch"/>
+      <sheetpath names="/LEDs controller/" tstamps="/7428dd77-d10e-40c2-a87a-c17a901051a0/"/>
+      <tstamps>0f2227e2-c280-40db-a276-9025e329d776</tstamps>
+    </comp>
+    <comp ref="U15">
+      <value>74HC595</value>
+      <footprint>Package_SO:SOP-16_3.9x9.9mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/sn74hc595.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2798023</field>
+      </fields>
+      <libsource lib="74xx" part="74HC595" description="8-bit serial in/out Shift Register 3-State Outputs"/>
+      <property name="LCSC" value="C2798023"/>
+      <property name="Sheetname" value="LEDs controller"/>
+      <property name="Sheetfile" value="LEDs_controller.kicad_sch"/>
+      <sheetpath names="/LEDs controller/" tstamps="/7428dd77-d10e-40c2-a87a-c17a901051a0/"/>
+      <tstamps>8c5ca7b1-ab92-47a0-8b79-679e919f1256</tstamps>
+    </comp>
+    <comp ref="U16">
+      <value>74HC595</value>
+      <footprint>Package_SO:SOP-16_3.9x9.9mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/sn74hc595.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2798023</field>
+      </fields>
+      <libsource lib="74xx" part="74HC595" description="8-bit serial in/out Shift Register 3-State Outputs"/>
+      <property name="LCSC" value="C2798023"/>
+      <property name="Sheetname" value="LEDs controller"/>
+      <property name="Sheetfile" value="LEDs_controller.kicad_sch"/>
+      <sheetpath names="/LEDs controller/" tstamps="/7428dd77-d10e-40c2-a87a-c17a901051a0/"/>
+      <tstamps>7d572bcf-4d33-4e17-9f94-d941c6507e1f</tstamps>
+    </comp>
+    <comp ref="U17">
+      <value>74HC595</value>
+      <footprint>Package_SO:SOP-16_3.9x9.9mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/sn74hc595.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2798023</field>
+      </fields>
+      <libsource lib="74xx" part="74HC595" description="8-bit serial in/out Shift Register 3-State Outputs"/>
+      <property name="LCSC" value="C2798023"/>
+      <property name="Sheetname" value="LEDs controller"/>
+      <property name="Sheetfile" value="LEDs_controller.kicad_sch"/>
+      <sheetpath names="/LEDs controller/" tstamps="/7428dd77-d10e-40c2-a87a-c17a901051a0/"/>
+      <tstamps>26df1e3f-1cbd-432e-a862-65edc1cc3bd8</tstamps>
+    </comp>
+    <comp ref="U18">
+      <value>74HC595</value>
+      <footprint>Package_SO:SOP-16_3.9x9.9mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/sn74hc595.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2798023</field>
+      </fields>
+      <libsource lib="74xx" part="74HC595" description="8-bit serial in/out Shift Register 3-State Outputs"/>
+      <property name="LCSC" value="C2798023"/>
+      <property name="Sheetname" value="LEDs controller"/>
+      <property name="Sheetfile" value="LEDs_controller.kicad_sch"/>
+      <sheetpath names="/LEDs controller/" tstamps="/7428dd77-d10e-40c2-a87a-c17a901051a0/"/>
+      <tstamps>758d554c-0614-4687-a1ee-7718d4501659</tstamps>
+    </comp>
+    <comp ref="Q11">
+      <value>Q_NMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C296295</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <property name="LCSC" value="C296295"/>
+      <property name="Sheetname" value="Column controller"/>
+      <property name="Sheetfile" value="column_controller.kicad_sch"/>
+      <sheetpath names="/LEDs controller/Column controller/" tstamps="/7428dd77-d10e-40c2-a87a-c17a901051a0/be5b7b2a-017f-4073-84b3-c8bc1a9d5702/"/>
+      <tstamps>78981ce8-d1c1-42a9-9d48-d847d2dccfe9</tstamps>
+    </comp>
+    <comp ref="Q12">
+      <value>Q_NMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C296295</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <property name="LCSC" value="C296295"/>
+      <property name="Sheetname" value="Column controller"/>
+      <property name="Sheetfile" value="column_controller.kicad_sch"/>
+      <sheetpath names="/LEDs controller/Column controller/" tstamps="/7428dd77-d10e-40c2-a87a-c17a901051a0/be5b7b2a-017f-4073-84b3-c8bc1a9d5702/"/>
+      <tstamps>e3bf07df-1610-40c7-b50c-250dbc32d3f9</tstamps>
+    </comp>
+    <comp ref="Q13">
+      <value>Q_NMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C296295</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <property name="LCSC" value="C296295"/>
+      <property name="Sheetname" value="Column controller"/>
+      <property name="Sheetfile" value="column_controller.kicad_sch"/>
+      <sheetpath names="/LEDs controller/Column controller/" tstamps="/7428dd77-d10e-40c2-a87a-c17a901051a0/be5b7b2a-017f-4073-84b3-c8bc1a9d5702/"/>
+      <tstamps>d551feb0-4493-4bdd-8087-9f7d2605cd57</tstamps>
+    </comp>
+    <comp ref="Q14">
+      <value>Q_NMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C296295</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <property name="LCSC" value="C296295"/>
+      <property name="Sheetname" value="Column controller"/>
+      <property name="Sheetfile" value="column_controller.kicad_sch"/>
+      <sheetpath names="/LEDs controller/Column controller/" tstamps="/7428dd77-d10e-40c2-a87a-c17a901051a0/be5b7b2a-017f-4073-84b3-c8bc1a9d5702/"/>
+      <tstamps>28333884-1450-4db0-ad54-7dcff237e707</tstamps>
+    </comp>
+    <comp ref="Q15">
+      <value>Q_NMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C296295</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <property name="LCSC" value="C296295"/>
+      <property name="Sheetname" value="Column controller"/>
+      <property name="Sheetfile" value="column_controller.kicad_sch"/>
+      <sheetpath names="/LEDs controller/Column controller/" tstamps="/7428dd77-d10e-40c2-a87a-c17a901051a0/be5b7b2a-017f-4073-84b3-c8bc1a9d5702/"/>
+      <tstamps>27076511-b090-4e97-afa8-24ade554e323</tstamps>
+    </comp>
+    <comp ref="Q16">
+      <value>Q_NMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C296295</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <property name="LCSC" value="C296295"/>
+      <property name="Sheetname" value="Column controller"/>
+      <property name="Sheetfile" value="column_controller.kicad_sch"/>
+      <sheetpath names="/LEDs controller/Column controller/" tstamps="/7428dd77-d10e-40c2-a87a-c17a901051a0/be5b7b2a-017f-4073-84b3-c8bc1a9d5702/"/>
+      <tstamps>000208ab-1b17-4543-b1e7-1eb8f8282485</tstamps>
+    </comp>
+    <comp ref="Q17">
+      <value>Q_NMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C296295</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <property name="LCSC" value="C296295"/>
+      <property name="Sheetname" value="Column controller"/>
+      <property name="Sheetfile" value="column_controller.kicad_sch"/>
+      <sheetpath names="/LEDs controller/Column controller/" tstamps="/7428dd77-d10e-40c2-a87a-c17a901051a0/be5b7b2a-017f-4073-84b3-c8bc1a9d5702/"/>
+      <tstamps>12b6262d-ab47-472d-a461-3335ec2ab366</tstamps>
+    </comp>
+    <comp ref="Q18">
+      <value>Q_NMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C296295</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <property name="LCSC" value="C296295"/>
+      <property name="Sheetname" value="Column controller"/>
+      <property name="Sheetfile" value="column_controller.kicad_sch"/>
+      <sheetpath names="/LEDs controller/Column controller/" tstamps="/7428dd77-d10e-40c2-a87a-c17a901051a0/be5b7b2a-017f-4073-84b3-c8bc1a9d5702/"/>
+      <tstamps>0fac38fe-112e-481a-9a52-9e31f8194e92</tstamps>
+    </comp>
+    <comp ref="Q19">
+      <value>Q_NMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C296295</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <property name="LCSC" value="C296295"/>
+      <property name="Sheetname" value="Column controller"/>
+      <property name="Sheetfile" value="column_controller.kicad_sch"/>
+      <sheetpath names="/LEDs controller/Column controller/" tstamps="/7428dd77-d10e-40c2-a87a-c17a901051a0/be5b7b2a-017f-4073-84b3-c8bc1a9d5702/"/>
+      <tstamps>6e76796b-a9db-496b-93f3-cc1514ceb0cf</tstamps>
+    </comp>
+    <comp ref="Q20">
+      <value>Q_NMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C296295</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <property name="LCSC" value="C296295"/>
+      <property name="Sheetname" value="Column controller"/>
+      <property name="Sheetfile" value="column_controller.kicad_sch"/>
+      <sheetpath names="/LEDs controller/Column controller/" tstamps="/7428dd77-d10e-40c2-a87a-c17a901051a0/be5b7b2a-017f-4073-84b3-c8bc1a9d5702/"/>
+      <tstamps>d100e906-c255-4931-a349-834c0e1c86ba</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>R_LED</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Column controller"/>
+      <property name="Sheetfile" value="column_controller.kicad_sch"/>
+      <sheetpath names="/LEDs controller/Column controller/" tstamps="/7428dd77-d10e-40c2-a87a-c17a901051a0/be5b7b2a-017f-4073-84b3-c8bc1a9d5702/"/>
+      <tstamps>c43438ed-42b0-40bd-812c-c9b52ba4ddd3</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>R_LED</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Column controller"/>
+      <property name="Sheetfile" value="column_controller.kicad_sch"/>
+      <sheetpath names="/LEDs controller/Column controller/" tstamps="/7428dd77-d10e-40c2-a87a-c17a901051a0/be5b7b2a-017f-4073-84b3-c8bc1a9d5702/"/>
+      <tstamps>7fe2f6da-f39f-45e9-b9e6-d71cb5aab4b9</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>R_LED</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Column controller"/>
+      <property name="Sheetfile" value="column_controller.kicad_sch"/>
+      <sheetpath names="/LEDs controller/Column controller/" tstamps="/7428dd77-d10e-40c2-a87a-c17a901051a0/be5b7b2a-017f-4073-84b3-c8bc1a9d5702/"/>
+      <tstamps>be765312-d8d6-4dca-8806-acacf9e5492f</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>R_LED</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Column controller"/>
+      <property name="Sheetfile" value="column_controller.kicad_sch"/>
+      <sheetpath names="/LEDs controller/Column controller/" tstamps="/7428dd77-d10e-40c2-a87a-c17a901051a0/be5b7b2a-017f-4073-84b3-c8bc1a9d5702/"/>
+      <tstamps>439b5564-31e4-4e33-8303-64b9db9f199e</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>R_LED</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Column controller"/>
+      <property name="Sheetfile" value="column_controller.kicad_sch"/>
+      <sheetpath names="/LEDs controller/Column controller/" tstamps="/7428dd77-d10e-40c2-a87a-c17a901051a0/be5b7b2a-017f-4073-84b3-c8bc1a9d5702/"/>
+      <tstamps>bcd92d6a-de0f-4b0e-b836-f18d996b35a0</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>R_LED</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Column controller"/>
+      <property name="Sheetfile" value="column_controller.kicad_sch"/>
+      <sheetpath names="/LEDs controller/Column controller/" tstamps="/7428dd77-d10e-40c2-a87a-c17a901051a0/be5b7b2a-017f-4073-84b3-c8bc1a9d5702/"/>
+      <tstamps>8ccc67d3-223a-4ba1-8d52-187e60fe24fe</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>R_LED</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Column controller"/>
+      <property name="Sheetfile" value="column_controller.kicad_sch"/>
+      <sheetpath names="/LEDs controller/Column controller/" tstamps="/7428dd77-d10e-40c2-a87a-c17a901051a0/be5b7b2a-017f-4073-84b3-c8bc1a9d5702/"/>
+      <tstamps>bba4dc5c-d949-470f-9e1c-5e32bc230214</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>R_LED</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Column controller"/>
+      <property name="Sheetfile" value="column_controller.kicad_sch"/>
+      <sheetpath names="/LEDs controller/Column controller/" tstamps="/7428dd77-d10e-40c2-a87a-c17a901051a0/be5b7b2a-017f-4073-84b3-c8bc1a9d5702/"/>
+      <tstamps>77e20517-713e-495d-a71c-2d4de0deb1f9</tstamps>
+    </comp>
+    <comp ref="R27">
+      <value>R_LED</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Column controller"/>
+      <property name="Sheetfile" value="column_controller.kicad_sch"/>
+      <sheetpath names="/LEDs controller/Column controller/" tstamps="/7428dd77-d10e-40c2-a87a-c17a901051a0/be5b7b2a-017f-4073-84b3-c8bc1a9d5702/"/>
+      <tstamps>21998f9c-ac9f-4907-ac40-0c19344ef03c</tstamps>
+    </comp>
+    <comp ref="R28">
+      <value>R_LED</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Column controller"/>
+      <property name="Sheetfile" value="column_controller.kicad_sch"/>
+      <sheetpath names="/LEDs controller/Column controller/" tstamps="/7428dd77-d10e-40c2-a87a-c17a901051a0/be5b7b2a-017f-4073-84b3-c8bc1a9d5702/"/>
+      <tstamps>77e85d36-db7c-4fac-9508-41a99c34967a</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="74xx" part="74HC595">
+      <description>8-bit serial in/out Shift Register 3-State Outputs</description>
+      <docs>http://www.ti.com/lit/ds/symlink/sn74hc595.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SOIC*3.9x9.9mm*P1.27mm*</fp>
+        <fp>TSSOP*4.4x5mm*P0.65mm*</fp>
+        <fp>SOIC*5.3x10.2mm*P1.27mm*</fp>
+        <fp>SOIC*7.5x10.3mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74HC595</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/sn74hc595.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="QB" type="tri_state"/>
+        <pin num="2" name="QC" type="tri_state"/>
+        <pin num="3" name="QD" type="tri_state"/>
+        <pin num="4" name="QE" type="tri_state"/>
+        <pin num="5" name="QF" type="tri_state"/>
+        <pin num="6" name="QG" type="tri_state"/>
+        <pin num="7" name="QH" type="tri_state"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="QH'" type="output"/>
+        <pin num="10" name="~SRCLR" type="input"/>
+        <pin num="11" name="SRCLK" type="input"/>
+        <pin num="12" name="RCLK" type="input"/>
+        <pin num="13" name="~OE" type="input"/>
+        <pin num="14" name="SER" type="input"/>
+        <pin num="15" name="QA" type="tri_state"/>
+        <pin num="16" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint_Small">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Ferrite_Bead_Small">
+      <description>Ferrite bead, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+        <fp>*Ferrite*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FB</field>
+        <field name="Value">Ferrite_Bead_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED_Small_ALT">
+      <description>Light emitting diode, small symbol, filled shape</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_Small_ALT</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_NMOS_GSD">
+      <description>N-MOSFET transistor, gate/source/drain</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NMOS_GSD</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_PMOS_GSD">
+      <description>P-MOSFET transistor, gate/source/drain</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_PMOS_GSD</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Interface_USB" part="CH340C">
+      <description>USB serial converter, UART, SOIC-16</description>
+      <docs>https://datasheet.lcsc.com/szlcsc/Jiangsu-Qin-Heng-CH340C_C84681.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x9.9mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CH340C</field>
+        <field name="Footprint">Package_SO:SOIC-16_3.9x9.9mm_P1.27mm</field>
+        <field name="Datasheet">https://datasheet.lcsc.com/szlcsc/Jiangsu-Qin-Heng-CH340C_C84681.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="TXD" type="output"/>
+        <pin num="3" name="RXD" type="input"/>
+        <pin num="4" name="V3" type="passive"/>
+        <pin num="5" name="UD+" type="bidirectional"/>
+        <pin num="6" name="UD-" type="bidirectional"/>
+        <pin num="7" name="NC" type="no_connect"/>
+        <pin num="8" name="NC" type="no_connect"/>
+        <pin num="9" name="~CTS" type="input"/>
+        <pin num="10" name="~DSR" type="input"/>
+        <pin num="11" name="~RI" type="input"/>
+        <pin num="12" name="~DCD" type="input"/>
+        <pin num="13" name="~DTR" type="output"/>
+        <pin num="14" name="~RTS" type="output"/>
+        <pin num="15" name="R232" type="input"/>
+        <pin num="16" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="RF_Module" part="ESP32-WROOM-32">
+      <description>RF Module, ESP32-D0WDQ6 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, onboard antenna, SMD</description>
+      <docs>https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf</docs>
+      <footprints>
+        <fp>ESP32?WROOM?32*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ESP32-WROOM-32</field>
+        <field name="Footprint">RF_Module:ESP32-WROOM-32</field>
+        <field name="Datasheet">https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VDD" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="SENSOR_VP" type="input"/>
+        <pin num="5" name="SENSOR_VN" type="input"/>
+        <pin num="6" name="IO34" type="input"/>
+        <pin num="7" name="IO35" type="input"/>
+        <pin num="8" name="IO32" type="bidirectional"/>
+        <pin num="9" name="IO33" type="bidirectional"/>
+        <pin num="10" name="IO25" type="bidirectional"/>
+        <pin num="11" name="IO26" type="bidirectional"/>
+        <pin num="12" name="IO27" type="bidirectional"/>
+        <pin num="13" name="IO14" type="bidirectional"/>
+        <pin num="14" name="IO12" type="bidirectional"/>
+        <pin num="15" name="GND" type="passive"/>
+        <pin num="16" name="IO13" type="bidirectional"/>
+        <pin num="17" name="SHD/SD2" type="bidirectional"/>
+        <pin num="18" name="SWP/SD3" type="bidirectional"/>
+        <pin num="19" name="SCS/CMD" type="bidirectional"/>
+        <pin num="20" name="SCK/CLK" type="bidirectional"/>
+        <pin num="21" name="SDO/SD0" type="bidirectional"/>
+        <pin num="22" name="SDI/SD1" type="bidirectional"/>
+        <pin num="23" name="IO15" type="bidirectional"/>
+        <pin num="24" name="IO2" type="bidirectional"/>
+        <pin num="25" name="IO0" type="bidirectional"/>
+        <pin num="26" name="IO4" type="bidirectional"/>
+        <pin num="27" name="IO16" type="bidirectional"/>
+        <pin num="28" name="IO17" type="bidirectional"/>
+        <pin num="29" name="IO5" type="bidirectional"/>
+        <pin num="30" name="IO18" type="bidirectional"/>
+        <pin num="31" name="IO19" type="bidirectional"/>
+        <pin num="32" name="NC" type="no_connect"/>
+        <pin num="33" name="IO21" type="bidirectional"/>
+        <pin num="34" name="RXD0/IO3" type="bidirectional"/>
+        <pin num="35" name="TXD0/IO1" type="bidirectional"/>
+        <pin num="36" name="IO22" type="bidirectional"/>
+        <pin num="37" name="IO23" type="bidirectional"/>
+        <pin num="38" name="GND" type="passive"/>
+        <pin num="39" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="AZ1117-3.3">
+      <description>1A 20V Fixed LDO Linear Regulator, 3.3V, SOT-89/SOT-223/TO-220/TO-252/TO-263</description>
+      <docs>https://www.diodes.com/assets/Datasheets/AZ1117.pdf</docs>
+      <footprints>
+        <fp>SOT?223*</fp>
+        <fp>SOT?89*</fp>
+        <fp>TO?220*</fp>
+        <fp>TO?252*</fp>
+        <fp>TO?263*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AZ1117-3.3</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/AZ1117.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="lcsc_analog" part="BL1551">
+      <docs>https://datasheet.lcsc.com/lcsc/Shanghai-Belling-BL1551_C82528.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BL1551</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SC-70-8</field>
+        <field name="Datasheet">https://datasheet.lcsc.com/lcsc/Shanghai-Belling-BL1551_C82528.pdf</field>
+        <field name="LCSC">C82528</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="VCC" type="power_in"/>
+        <pin num="6" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="lcsc_random" part="TYPE-C-31-M-12">
+      <description>USB C</description>
+      <docs>https://datasheet.lcsc.com/szlcsc/1903211732_Korean-Hroparts-Elec-TYPE-C-31-M-12_C165948.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">TYPE-C-31-M-12</field>
+        <field name="Footprint">lcsc_random:TYPE-C-31-M-12</field>
+        <field name="Datasheet">https://datasheet.lcsc.com/szlcsc/1903211732_Korean-Hroparts-Elec-TYPE-C-31-M-12_C165948.pdf</field>
+        <field name="LCSC part">C165948</field>
+      </fields>
+      <pins>
+        <pin num="A5" name="CC1" type="bidirectional"/>
+        <pin num="A6" name="D+" type="bidirectional"/>
+        <pin num="A7" name="D-" type="bidirectional"/>
+        <pin num="A8" name="SBU1" type="bidirectional"/>
+        <pin num="A1B9" name="VBUS" type="passive"/>
+        <pin num="A1B12" name="GND" type="passive"/>
+        <pin num="B5" name="CC2" type="bidirectional"/>
+        <pin num="B6" name="D+" type="bidirectional"/>
+        <pin num="B7" name="D-" type="bidirectional"/>
+        <pin num="B8" name="SBU2" type="bidirectional"/>
+        <pin num="B1A9" name="VBUS" type="passive"/>
+        <pin num="B1A12" name="GND" type="passive"/>
+        <pin num="SH" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="lcsc_sensors" part="ICM-20600">
+      <description>6-axis MotionTracking device that combines a 3-axis gyroscope and a 3-axis accelerometer</description>
+      <docs>https://datasheet.lcsc.com/lcsc/TDK-InvenSense-ICM-20600_C124140.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ICM-20600</field>
+        <field name="Footprint">Package_LGA:LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y</field>
+        <field name="Datasheet">https://datasheet.lcsc.com/lcsc/TDK-InvenSense-ICM-20600_C124140.pdf</field>
+        <field name="LCSC">C124140</field>
+      </fields>
+      <pins>
+        <pin num="1" name="AD0/SDO" type="bidirectional"/>
+        <pin num="2" name="NC" type="no_connect"/>
+        <pin num="3" name="NC" type="no_connect"/>
+        <pin num="4" name="INT1" type="output"/>
+        <pin num="5" name="VDDIO" type="power_in"/>
+        <pin num="6" name="GND" type="power_in"/>
+        <pin num="7" name="RESV" type="passive"/>
+        <pin num="8" name="VDD" type="power_in"/>
+        <pin num="9" name="INT2" type="output"/>
+        <pin num="10" name="FSYNC/NC" type="input"/>
+        <pin num="11" name="REGOUT" type="passive"/>
+        <pin num="12" name="~CS" type="input"/>
+        <pin num="13" name="SCL/SCLK" type="input"/>
+        <pin num="14" name="SDA/SDI" type="bidirectional"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="74xx">
+      <uri>/usr/share/kicad/library/74xx.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Interface_USB">
+      <uri>/usr/share/kicad/library/Interface_USB.lib</uri>
+    </library>
+    <library logical="RF_Module">
+      <uri>/usr/share/kicad/library/RF_Module.lib</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>/usr/share/kicad/library/Regulator_Linear.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/usr/share/kicad/library/Switch.lib</uri>
+    </library>
+    <library logical="lcsc_analog">
+      <uri>/home/mra/Sync/PC_sync/KiCad_libs/new/symbols/lcsc_analog.kicad_sym</uri>
+    </library>
+    <library logical="lcsc_random">
+      <uri>/home/mra/Sync/PC_sync/KiCad_libs/new/symbols/lcsc_random.kicad_sym</uri>
+    </library>
+    <library logical="lcsc_sensors">
+      <uri>/home/mra/Sync/PC_sync/KiCad_libs/new/symbols/lcsc_sensors.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q10" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q3" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q4" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q5" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q6" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q7" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q8" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q9" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="TP4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U10" pin="5" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U11" pin="5" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U12" pin="5" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U13" pin="5" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U14" pin="5" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U15" pin="16" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U16" pin="16" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U17" pin="16" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U18" pin="16" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U2" pin="5" pinfunction="VDDIO" pintype="power_in"/>
+      <node ref="U2" pin="8" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U3" pin="2" pinfunction="VO" pintype="power_out"/>
+      <node ref="U4" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U5" pin="5" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U6" pin="5" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U7" pin="5" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U8" pin="5" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U9" pin="5" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="2" name="/CH_V3">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="V3" pintype="passive"/>
+    </net>
+    <net code="3" name="/EN">
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U4" pin="3" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="4" name="/IO0">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U4" pin="25" pinfunction="IO0" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/IO2">
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U4" pin="24" pinfunction="IO2" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="/LED_ADC">
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="TP17" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U10" pin="1" pintype="passive"/>
+      <node ref="U11" pin="1" pintype="passive"/>
+      <node ref="U12" pin="1" pintype="passive"/>
+      <node ref="U13" pin="1" pintype="passive"/>
+      <node ref="U14" pin="1" pintype="passive"/>
+      <node ref="U5" pin="1" pintype="passive"/>
+      <node ref="U6" pin="1" pintype="passive"/>
+      <node ref="U7" pin="1" pintype="passive"/>
+      <node ref="U8" pin="1" pintype="passive"/>
+      <node ref="U9" pin="1" pintype="passive"/>
+    </net>
+    <net code="7" name="/LEDs controller/COL0">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D11" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D21" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D31" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D41" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D51" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D61" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D71" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D81" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D91" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q11" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="8" name="/LEDs controller/COL1">
+      <node ref="D12" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D22" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D32" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D42" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D52" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D62" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D72" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D82" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D92" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q12" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="9" name="/LEDs controller/COL2">
+      <node ref="D13" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D23" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D33" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D43" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D53" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D63" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D73" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D83" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D93" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q13" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="10" name="/LEDs controller/COL3">
+      <node ref="D14" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D24" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D34" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D44" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D54" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D64" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D74" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D84" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D94" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q14" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="11" name="/LEDs controller/COL4">
+      <node ref="D15" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D25" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D35" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D45" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D55" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D65" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D75" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D85" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D95" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q15" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="12" name="/LEDs controller/COL5">
+      <node ref="D16" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D26" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D36" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D46" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D56" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D66" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D76" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D86" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D96" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q16" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="13" name="/LEDs controller/COL6">
+      <node ref="D17" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D27" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D37" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D47" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D57" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D67" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D77" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D87" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D97" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q17" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="14" name="/LEDs controller/COL7">
+      <node ref="D18" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D28" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D38" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D48" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D58" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D68" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D78" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D8" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D88" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D98" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q18" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="15" name="/LEDs controller/COL8">
+      <node ref="D19" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D29" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D39" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D49" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D59" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D69" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D79" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D89" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D9" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D99" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q19" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="16" name="/LEDs controller/COL9">
+      <node ref="D10" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D100" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D20" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D30" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D40" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D50" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D60" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D70" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D80" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D90" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q20" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="18" name="/LEDs controller/Column controller/N_CTRL0">
+      <node ref="Q11" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="U15" pin="15" pinfunction="QA" pintype="tri_state"/>
+    </net>
+    <net code="19" name="/LEDs controller/Column controller/N_CTRL1">
+      <node ref="Q12" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="U15" pin="1" pinfunction="QB" pintype="tri_state"/>
+    </net>
+    <net code="20" name="/LEDs controller/Column controller/N_CTRL2">
+      <node ref="Q13" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="U15" pin="2" pinfunction="QC" pintype="tri_state"/>
+    </net>
+    <net code="21" name="/LEDs controller/Column controller/N_CTRL3">
+      <node ref="Q14" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="U15" pin="3" pinfunction="QD" pintype="tri_state"/>
+    </net>
+    <net code="22" name="/LEDs controller/Column controller/N_CTRL4">
+      <node ref="Q15" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="U15" pin="4" pinfunction="QE" pintype="tri_state"/>
+    </net>
+    <net code="23" name="/LEDs controller/Column controller/N_CTRL5">
+      <node ref="Q16" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="U15" pin="5" pinfunction="QF" pintype="tri_state"/>
+    </net>
+    <net code="24" name="/LEDs controller/Column controller/N_CTRL6">
+      <node ref="Q17" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="U15" pin="6" pinfunction="QG" pintype="tri_state"/>
+    </net>
+    <net code="25" name="/LEDs controller/Column controller/N_CTRL7">
+      <node ref="Q18" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="U15" pin="7" pinfunction="QH" pintype="tri_state"/>
+    </net>
+    <net code="26" name="/LEDs controller/Column controller/N_CTRL8">
+      <node ref="Q19" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="U16" pin="15" pinfunction="QA" pintype="tri_state"/>
+    </net>
+    <net code="27" name="/LEDs controller/Column controller/N_CTRL9">
+      <node ref="Q20" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="U16" pin="1" pinfunction="QB" pintype="tri_state"/>
+    </net>
+    <net code="29" name="/LEDs controller/Column controller/R_COL0">
+      <node ref="Q11" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+    </net>
+    <net code="30" name="/LEDs controller/Column controller/R_COL1">
+      <node ref="Q12" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+    </net>
+    <net code="31" name="/LEDs controller/Column controller/R_COL2">
+      <node ref="Q13" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+    </net>
+    <net code="32" name="/LEDs controller/Column controller/R_COL3">
+      <node ref="Q14" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+    </net>
+    <net code="33" name="/LEDs controller/Column controller/R_COL4">
+      <node ref="Q15" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+    </net>
+    <net code="34" name="/LEDs controller/Column controller/R_COL5">
+      <node ref="Q16" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+    </net>
+    <net code="35" name="/LEDs controller/Column controller/R_COL6">
+      <node ref="Q17" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R25" pin="1" pintype="passive"/>
+    </net>
+    <net code="36" name="/LEDs controller/Column controller/R_COL7">
+      <node ref="Q18" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R26" pin="1" pintype="passive"/>
+    </net>
+    <net code="37" name="/LEDs controller/Column controller/R_COL8">
+      <node ref="Q19" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R27" pin="1" pintype="passive"/>
+    </net>
+    <net code="38" name="/LEDs controller/Column controller/R_COL9">
+      <node ref="Q20" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R28" pin="1" pintype="passive"/>
+    </net>
+    <net code="40" name="/LEDs controller/ROW0">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D10" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D7" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D8" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D9" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U5" pin="4" pintype="passive"/>
+    </net>
+    <net code="41" name="/LEDs controller/ROW1">
+      <node ref="D11" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D12" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D13" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D14" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D15" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D16" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D17" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D18" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D19" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D20" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U6" pin="4" pintype="passive"/>
+    </net>
+    <net code="42" name="/LEDs controller/ROW2">
+      <node ref="D21" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D22" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D23" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D24" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D25" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D26" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D27" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D28" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D29" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D30" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U7" pin="4" pintype="passive"/>
+    </net>
+    <net code="43" name="/LEDs controller/ROW3">
+      <node ref="D31" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D32" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D33" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D34" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D35" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D36" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D37" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D38" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D39" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D40" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U8" pin="4" pintype="passive"/>
+    </net>
+    <net code="44" name="/LEDs controller/ROW4">
+      <node ref="D41" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D42" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D43" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D44" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D45" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D46" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D47" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D48" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D49" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D50" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U9" pin="4" pintype="passive"/>
+    </net>
+    <net code="45" name="/LEDs controller/ROW5">
+      <node ref="D51" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D52" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D53" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D54" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D55" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D56" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D57" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D58" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D59" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D60" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U10" pin="4" pintype="passive"/>
+    </net>
+    <net code="46" name="/LEDs controller/ROW6">
+      <node ref="D61" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D62" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D63" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D64" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D65" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D66" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D67" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D68" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D69" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D70" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U11" pin="4" pintype="passive"/>
+    </net>
+    <net code="47" name="/LEDs controller/ROW7">
+      <node ref="D71" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D72" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D73" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D74" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D75" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D76" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D77" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D78" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D79" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D80" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U12" pin="4" pintype="passive"/>
+    </net>
+    <net code="48" name="/LEDs controller/ROW8">
+      <node ref="D81" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D82" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D83" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D84" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D85" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D86" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D87" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D88" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D89" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D90" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U13" pin="4" pintype="passive"/>
+    </net>
+    <net code="49" name="/LEDs controller/ROW9">
+      <node ref="D100" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D91" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D92" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D93" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D94" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D95" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D96" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D97" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D98" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D99" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U14" pin="4" pintype="passive"/>
+    </net>
+    <net code="51" name="/LEDs controller/Row controller/AN_CTRL0">
+      <node ref="U16" pin="5" pinfunction="QF" pintype="tri_state"/>
+      <node ref="U5" pin="6" pintype="input"/>
+    </net>
+    <net code="52" name="/LEDs controller/Row controller/AN_CTRL1">
+      <node ref="U16" pin="7" pinfunction="QH" pintype="tri_state"/>
+      <node ref="U6" pin="6" pintype="input"/>
+    </net>
+    <net code="53" name="/LEDs controller/Row controller/AN_CTRL2">
+      <node ref="U17" pin="1" pinfunction="QB" pintype="tri_state"/>
+      <node ref="U7" pin="6" pintype="input"/>
+    </net>
+    <net code="54" name="/LEDs controller/Row controller/AN_CTRL3">
+      <node ref="U17" pin="3" pinfunction="QD" pintype="tri_state"/>
+      <node ref="U8" pin="6" pintype="input"/>
+    </net>
+    <net code="55" name="/LEDs controller/Row controller/AN_CTRL4">
+      <node ref="U17" pin="5" pinfunction="QF" pintype="tri_state"/>
+      <node ref="U9" pin="6" pintype="input"/>
+    </net>
+    <net code="56" name="/LEDs controller/Row controller/AN_CTRL5">
+      <node ref="U10" pin="6" pintype="input"/>
+      <node ref="U17" pin="7" pinfunction="QH" pintype="tri_state"/>
+    </net>
+    <net code="57" name="/LEDs controller/Row controller/AN_CTRL6">
+      <node ref="U11" pin="6" pintype="input"/>
+      <node ref="U18" pin="1" pinfunction="QB" pintype="tri_state"/>
+    </net>
+    <net code="58" name="/LEDs controller/Row controller/AN_CTRL7">
+      <node ref="U12" pin="6" pintype="input"/>
+      <node ref="U18" pin="3" pinfunction="QD" pintype="tri_state"/>
+    </net>
+    <net code="59" name="/LEDs controller/Row controller/AN_CTRL8">
+      <node ref="U13" pin="6" pintype="input"/>
+      <node ref="U18" pin="5" pinfunction="QF" pintype="tri_state"/>
+    </net>
+    <net code="60" name="/LEDs controller/Row controller/AN_CTRL9">
+      <node ref="U14" pin="6" pintype="input"/>
+      <node ref="U18" pin="7" pinfunction="QH" pintype="tri_state"/>
+    </net>
+    <net code="62" name="/LEDs controller/Row controller/P_CTRL0">
+      <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="U16" pin="4" pinfunction="QE" pintype="tri_state"/>
+    </net>
+    <net code="63" name="/LEDs controller/Row controller/P_CTRL1">
+      <node ref="Q2" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="U16" pin="6" pinfunction="QG" pintype="tri_state"/>
+    </net>
+    <net code="64" name="/LEDs controller/Row controller/P_CTRL2">
+      <node ref="Q3" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="U17" pin="15" pinfunction="QA" pintype="tri_state"/>
+    </net>
+    <net code="65" name="/LEDs controller/Row controller/P_CTRL3">
+      <node ref="Q4" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="U17" pin="2" pinfunction="QC" pintype="tri_state"/>
+    </net>
+    <net code="66" name="/LEDs controller/Row controller/P_CTRL4">
+      <node ref="Q5" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="U17" pin="4" pinfunction="QE" pintype="tri_state"/>
+    </net>
+    <net code="67" name="/LEDs controller/Row controller/P_CTRL5">
+      <node ref="Q6" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="U17" pin="6" pinfunction="QG" pintype="tri_state"/>
+    </net>
+    <net code="68" name="/LEDs controller/Row controller/P_CTRL6">
+      <node ref="Q7" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="U18" pin="15" pinfunction="QA" pintype="tri_state"/>
+    </net>
+    <net code="69" name="/LEDs controller/Row controller/P_CTRL7">
+      <node ref="Q8" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="U18" pin="2" pinfunction="QC" pintype="tri_state"/>
+    </net>
+    <net code="70" name="/LEDs controller/Row controller/P_CTRL8">
+      <node ref="Q9" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="U18" pin="4" pinfunction="QE" pintype="tri_state"/>
+    </net>
+    <net code="71" name="/LEDs controller/Row controller/P_CTRL9">
+      <node ref="Q10" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="U18" pin="6" pinfunction="QG" pintype="tri_state"/>
+    </net>
+    <net code="73" name="/SCL">
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="TP18" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="13" pinfunction="SCL/SCLK" pintype="input"/>
+    </net>
+    <net code="74" name="/SDA">
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="TP19" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="14" pinfunction="SDA/SDI" pintype="bidirectional"/>
+    </net>
+    <net code="75" name="/SENSOR_INT">
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="INT1" pintype="output"/>
+    </net>
+    <net code="76" name="/USB_D+">
+      <node ref="J1" pin="A6" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="J1" pin="B6" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="UD+" pintype="bidirectional"/>
+    </net>
+    <net code="77" name="/USB_D-">
+      <node ref="J1" pin="A7" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="J1" pin="B7" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="UD-" pintype="bidirectional"/>
+    </net>
+    <net code="78" name="/shift_clear">
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="U15" pin="10" pinfunction="~SRCLR" pintype="input"/>
+      <node ref="U16" pin="10" pinfunction="~SRCLR" pintype="input"/>
+      <node ref="U17" pin="10" pinfunction="~SRCLR" pintype="input"/>
+      <node ref="U18" pin="10" pinfunction="~SRCLR" pintype="input"/>
+    </net>
+    <net code="79" name="/shift_clk">
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="U15" pin="11" pinfunction="SRCLK" pintype="input"/>
+      <node ref="U16" pin="11" pinfunction="SRCLK" pintype="input"/>
+      <node ref="U17" pin="11" pinfunction="SRCLK" pintype="input"/>
+      <node ref="U18" pin="11" pinfunction="SRCLK" pintype="input"/>
+    </net>
+    <net code="80" name="/shift_data_in">
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="U15" pin="14" pinfunction="SER" pintype="input"/>
+    </net>
+    <net code="81" name="/shift_oe">
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="U15" pin="13" pinfunction="~OE" pintype="input"/>
+      <node ref="U16" pin="13" pinfunction="~OE" pintype="input"/>
+      <node ref="U17" pin="13" pinfunction="~OE" pintype="input"/>
+      <node ref="U18" pin="13" pinfunction="~OE" pintype="input"/>
+    </net>
+    <net code="82" name="/shift_storage_clk">
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="U15" pin="12" pinfunction="RCLK" pintype="input"/>
+      <node ref="U16" pin="12" pinfunction="RCLK" pintype="input"/>
+      <node ref="U17" pin="12" pinfunction="RCLK" pintype="input"/>
+      <node ref="U18" pin="12" pinfunction="RCLK" pintype="input"/>
+    </net>
+    <net code="83" name="/uC_Rx">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U4" pin="34" pinfunction="RXD0/IO3" pintype="bidirectional"/>
+    </net>
+    <net code="84" name="/uC_Tx">
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U4" pin="35" pinfunction="TXD0/IO1" pintype="bidirectional"/>
+    </net>
+    <net code="85" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="FB1" pin="2" pintype="passive"/>
+      <node ref="J1" pin="A1B12" pinfunction="GND" pintype="passive"/>
+      <node ref="J1" pin="B1A12" pinfunction="GND" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="R24" pin="2" pintype="passive"/>
+      <node ref="R25" pin="2" pintype="passive"/>
+      <node ref="R26" pin="2" pintype="passive"/>
+      <node ref="R27" pin="2" pintype="passive"/>
+      <node ref="R28" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U10" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U11" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U12" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U13" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U14" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U15" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="U16" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="U17" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="U18" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="1" pinfunction="AD0/SDO" pintype="bidirectional"/>
+      <node ref="U2" pin="6" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="7" pinfunction="RESV" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="15" pinfunction="GND" pintype="passive"/>
+      <node ref="U4" pin="38" pinfunction="GND" pintype="passive"/>
+      <node ref="U4" pin="39" pinfunction="GND" pintype="passive"/>
+      <node ref="U5" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U6" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U7" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U8" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U9" pin="2" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="86" name="Net-(C8-Pad1)">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="U2" pin="11" pinfunction="REGOUT" pintype="passive"/>
+    </net>
+    <net code="87" name="Net-(FB1-Pad1)">
+      <node ref="FB1" pin="1" pintype="passive"/>
+      <node ref="J1" pin="SH" pinfunction="SHIELD" pintype="passive"/>
+    </net>
+    <net code="88" name="Net-(J1-PadA5)">
+      <node ref="J1" pin="A5" pinfunction="CC1" pintype="bidirectional"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="89" name="Net-(J1-PadB5)">
+      <node ref="J1" pin="B5" pinfunction="CC2" pintype="bidirectional"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="90" name="Net-(Q1-Pad3)">
+      <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="U5" pin="3" pintype="passive"/>
+    </net>
+    <net code="91" name="Net-(Q2-Pad3)">
+      <node ref="Q2" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="U6" pin="3" pintype="passive"/>
+    </net>
+    <net code="92" name="Net-(Q3-Pad3)">
+      <node ref="Q3" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="U7" pin="3" pintype="passive"/>
+    </net>
+    <net code="93" name="Net-(Q4-Pad3)">
+      <node ref="Q4" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="U8" pin="3" pintype="passive"/>
+    </net>
+    <net code="94" name="Net-(Q5-Pad3)">
+      <node ref="Q5" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="U9" pin="3" pintype="passive"/>
+    </net>
+    <net code="95" name="Net-(Q6-Pad3)">
+      <node ref="Q6" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="U10" pin="3" pintype="passive"/>
+    </net>
+    <net code="96" name="Net-(Q7-Pad3)">
+      <node ref="Q7" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="U11" pin="3" pintype="passive"/>
+    </net>
+    <net code="97" name="Net-(Q8-Pad3)">
+      <node ref="Q8" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="U12" pin="3" pintype="passive"/>
+    </net>
+    <net code="98" name="Net-(Q9-Pad3)">
+      <node ref="Q9" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="U13" pin="3" pintype="passive"/>
+    </net>
+    <net code="99" name="Net-(Q10-Pad3)">
+      <node ref="Q10" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="U14" pin="3" pintype="passive"/>
+    </net>
+    <net code="100" name="Net-(R3-Pad1)">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="TXD" pintype="output"/>
+    </net>
+    <net code="101" name="Net-(R4-Pad1)">
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="RXD" pintype="input"/>
+    </net>
+    <net code="102" name="Net-(R10-Pad1)">
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="U4" pin="33" pinfunction="IO21" pintype="bidirectional"/>
+    </net>
+    <net code="103" name="Net-(R11-Pad1)">
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="U4" pin="36" pinfunction="IO22" pintype="bidirectional"/>
+    </net>
+    <net code="104" name="Net-(R12-Pad1)">
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="U4" pin="37" pinfunction="IO23" pintype="bidirectional"/>
+    </net>
+    <net code="105" name="Net-(R13-Pad1)">
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="U4" pin="10" pinfunction="IO25" pintype="bidirectional"/>
+    </net>
+    <net code="106" name="Net-(R14-Pad1)">
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="U4" pin="11" pinfunction="IO26" pintype="bidirectional"/>
+    </net>
+    <net code="107" name="Net-(R15-Pad1)">
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="U4" pin="12" pinfunction="IO27" pintype="bidirectional"/>
+    </net>
+    <net code="108" name="Net-(R16-Pad1)">
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="U4" pin="8" pinfunction="IO32" pintype="bidirectional"/>
+    </net>
+    <net code="109" name="Net-(R17-Pad1)">
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="U4" pin="9" pinfunction="IO33" pintype="bidirectional"/>
+    </net>
+    <net code="110" name="Net-(R18-Pad1)">
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="U4" pin="6" pinfunction="IO34" pintype="input"/>
+    </net>
+    <net code="111" name="Net-(TP5-Pad1)">
+      <node ref="TP5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U4" pin="4" pinfunction="SENSOR_VP" pintype="input"/>
+    </net>
+    <net code="112" name="Net-(TP6-Pad1)">
+      <node ref="TP6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U4" pin="5" pinfunction="SENSOR_VN" pintype="input"/>
+    </net>
+    <net code="113" name="Net-(TP7-Pad1)">
+      <node ref="TP7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U4" pin="26" pinfunction="IO4" pintype="bidirectional"/>
+    </net>
+    <net code="114" name="Net-(TP8-Pad1)">
+      <node ref="TP8" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U4" pin="29" pinfunction="IO5" pintype="bidirectional"/>
+    </net>
+    <net code="115" name="Net-(TP9-Pad1)">
+      <node ref="TP9" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U4" pin="14" pinfunction="IO12" pintype="bidirectional"/>
+    </net>
+    <net code="116" name="Net-(TP10-Pad1)">
+      <node ref="TP10" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U4" pin="16" pinfunction="IO13" pintype="bidirectional"/>
+    </net>
+    <net code="117" name="Net-(TP11-Pad1)">
+      <node ref="TP11" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U4" pin="13" pinfunction="IO14" pintype="bidirectional"/>
+    </net>
+    <net code="118" name="Net-(TP12-Pad1)">
+      <node ref="TP12" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U4" pin="23" pinfunction="IO15" pintype="bidirectional"/>
+    </net>
+    <net code="119" name="Net-(TP13-Pad1)">
+      <node ref="TP13" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U4" pin="27" pinfunction="IO16" pintype="bidirectional"/>
+    </net>
+    <net code="120" name="Net-(TP14-Pad1)">
+      <node ref="TP14" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U4" pin="28" pinfunction="IO17" pintype="bidirectional"/>
+    </net>
+    <net code="121" name="Net-(TP15-Pad1)">
+      <node ref="TP15" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U4" pin="30" pinfunction="IO18" pintype="bidirectional"/>
+    </net>
+    <net code="122" name="Net-(TP16-Pad1)">
+      <node ref="TP16" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U4" pin="31" pinfunction="IO19" pintype="bidirectional"/>
+    </net>
+    <net code="123" name="Net-(TP20-Pad1)">
+      <node ref="TP20" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U4" pin="7" pinfunction="IO35" pintype="input"/>
+    </net>
+    <net code="124" name="Net-(U15-Pad9)">
+      <node ref="U15" pin="9" pinfunction="QH'" pintype="output"/>
+      <node ref="U16" pin="14" pinfunction="SER" pintype="input"/>
+    </net>
+    <net code="125" name="Net-(U16-Pad9)">
+      <node ref="U16" pin="9" pinfunction="QH'" pintype="output"/>
+      <node ref="U17" pin="14" pinfunction="SER" pintype="input"/>
+    </net>
+    <net code="126" name="Net-(U17-Pad9)">
+      <node ref="U17" pin="9" pinfunction="QH'" pintype="output"/>
+      <node ref="U18" pin="14" pinfunction="SER" pintype="input"/>
+    </net>
+    <net code="127" name="VBUS">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="J1" pin="A1B9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J1" pin="B1A9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="TP3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U3" pin="3" pinfunction="VI" pintype="power_in"/>
+    </net>
+    <net code="128" name="unconnected-(J1-PadA8)">
+      <node ref="J1" pin="A8" pinfunction="SBU1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="129" name="unconnected-(J1-PadB8)">
+      <node ref="J1" pin="B8" pinfunction="SBU2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="130" name="unconnected-(U1-Pad7)">
+      <node ref="U1" pin="7" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="131" name="unconnected-(U1-Pad8)">
+      <node ref="U1" pin="8" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="132" name="unconnected-(U1-Pad9)">
+      <node ref="U1" pin="9" pinfunction="~CTS" pintype="input+no_connect"/>
+    </net>
+    <net code="133" name="unconnected-(U1-Pad10)">
+      <node ref="U1" pin="10" pinfunction="~DSR" pintype="input+no_connect"/>
+    </net>
+    <net code="134" name="unconnected-(U1-Pad11)">
+      <node ref="U1" pin="11" pinfunction="~RI" pintype="input+no_connect"/>
+    </net>
+    <net code="135" name="unconnected-(U1-Pad12)">
+      <node ref="U1" pin="12" pinfunction="~DCD" pintype="input+no_connect"/>
+    </net>
+    <net code="136" name="unconnected-(U1-Pad13)">
+      <node ref="U1" pin="13" pinfunction="~DTR" pintype="output+no_connect"/>
+    </net>
+    <net code="137" name="unconnected-(U1-Pad14)">
+      <node ref="U1" pin="14" pinfunction="~RTS" pintype="output+no_connect"/>
+    </net>
+    <net code="138" name="unconnected-(U1-Pad15)">
+      <node ref="U1" pin="15" pinfunction="R232" pintype="input+no_connect"/>
+    </net>
+    <net code="139" name="unconnected-(U2-Pad2)">
+      <node ref="U2" pin="2" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="140" name="unconnected-(U2-Pad3)">
+      <node ref="U2" pin="3" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="141" name="unconnected-(U2-Pad9)">
+      <node ref="U2" pin="9" pinfunction="INT2" pintype="output+no_connect"/>
+    </net>
+    <net code="142" name="unconnected-(U2-Pad10)">
+      <node ref="U2" pin="10" pinfunction="FSYNC/NC" pintype="input+no_connect"/>
+    </net>
+    <net code="143" name="unconnected-(U2-Pad12)">
+      <node ref="U2" pin="12" pinfunction="~CS" pintype="input+no_connect"/>
+    </net>
+    <net code="144" name="unconnected-(U4-Pad17)">
+      <node ref="U4" pin="17" pinfunction="SHD/SD2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="145" name="unconnected-(U4-Pad18)">
+      <node ref="U4" pin="18" pinfunction="SWP/SD3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="146" name="unconnected-(U4-Pad19)">
+      <node ref="U4" pin="19" pinfunction="SCS/CMD" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="147" name="unconnected-(U4-Pad20)">
+      <node ref="U4" pin="20" pinfunction="SCK/CLK" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="148" name="unconnected-(U4-Pad21)">
+      <node ref="U4" pin="21" pinfunction="SDO/SD0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="149" name="unconnected-(U4-Pad22)">
+      <node ref="U4" pin="22" pinfunction="SDI/SD1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="150" name="unconnected-(U4-Pad32)">
+      <node ref="U4" pin="32" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="151" name="unconnected-(U16-Pad2)">
+      <node ref="U16" pin="2" pinfunction="QC" pintype="tri_state+no_connect"/>
+    </net>
+    <net code="152" name="unconnected-(U16-Pad3)">
+      <node ref="U16" pin="3" pinfunction="QD" pintype="tri_state+no_connect"/>
+    </net>
+    <net code="153" name="unconnected-(U18-Pad9)">
+      <node ref="U18" pin="9" pinfunction="QH'" pintype="output+no_connect"/>
+    </net>
+  </nets>
+</export>

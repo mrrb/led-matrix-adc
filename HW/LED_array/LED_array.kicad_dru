@@ -1,0 +1,6 @@
+(version 1.0)
+(rule acc_clear
+#	(condition "A.Reference=='U2'")
+	(condition "A.insideArea('acc_ic_area')")
+	(constraint clearance(min 0.1mm))
+)
